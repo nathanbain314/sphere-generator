@@ -14,10 +14,10 @@ This program can generate three types of lego spheres and two types of lego tori
 
 ## Examples
 #### Type 1
-![Type 1](http://nathanbain.com/cgit/sphere-generator.git/plain/examples/Type1.png)
+![Type 1](https://raw.githubusercontent.com/nathanbain314/sphere-generator/master/examples/Type1.png)
 
 #### Type 2
-![Type 2](http://nathanbain.com/cgit/sphere-generator.git/plain/examples/Type2.png)
+![Type 2](https://raw.githubusercontent.com/nathanbain314/sphere-generator/master/examples/Type2.png)
 
 #### Type 5
-![Type 5](http://nathanbain.com/cgit/sphere-generator.git/plain/examples/Type5.png)
+![Type 5](https://raw.githubusercontent.com/nathanbain314/sphere-generator/master/examples/Type5.png)
