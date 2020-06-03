@@ -9,12 +9,12 @@ void placeBlock( double x, double y, double z, bool plate, ofstream &outputFile 
 // Creates block at point x, y, z pointing upwards
 void placeBlock2( double x, double y, double z, bool type, ofstream &outputFile )
 {
-  outputFile << "1 0 " << x*20 << " " << 8 * y << " " << z*20 << " 0 0 1 0 1 0 -1 0 0 " << (type ? "30039.dat" : "3024.dat") << endl;
-  outputFile << "1 0 " << x*20 << " " << -8 * y << " " << z*20 << " 0 0 -1 0 -1 0 -1 0 0 " << (type ? "30039.dat" : "3024.dat") << endl;
-  outputFile << "1 0 " << 8 * y << " " << 20 * z << " " << 20 * x << " 0 1 0 -1 0 0 0 0 1 " << (type ? "30039.dat" : "3024.dat") << endl;
-  outputFile << "1 0 " << -8 * y << " " << 20 * z << " " << 20 * x << " 0 -1 0 1 0 0 0 0 1 " << (type ? "30039.dat" : "3024.dat") << endl;
-  outputFile << "1 0 " << z*20 << " " << x*20 << " " << 8 * y << " 1 0 0 0 0 -1 0 1 0 " << (type ? "30039.dat" : "3024.dat") << endl;
-  outputFile << "1 0 " << 20 * z << " " << 20 * x << " " << -8 * y << " 1 0 0 0 0 1 0 -1 0 " << (type ? "30039.dat" : "3024.dat") << endl;
+  outputFile << "1 0 " << x*20 << " " << 8 * y << " " << z*20 << " 0 0 1 0 1 0 -1 0 0 " << (type ? "3070.dat" : "3024.dat") << endl;
+  outputFile << "1 0 " << x*20 << " " << -8 * y << " " << z*20 << " 0 0 -1 0 -1 0 -1 0 0 " << (type ? "3070.dat" : "3024.dat") << endl;
+  outputFile << "1 0 " << 8 * y << " " << 20 * z << " " << 20 * x << " 0 1 0 -1 0 0 0 0 1 " << (type ? "3070.dat" : "3024.dat") << endl;
+  outputFile << "1 0 " << -8 * y << " " << 20 * z << " " << 20 * x << " 0 -1 0 1 0 0 0 0 1 " << (type ? "3070.dat" : "3024.dat") << endl;
+  outputFile << "1 0 " << z*20 << " " << x*20 << " " << 8 * y << " 1 0 0 0 0 -1 0 1 0 " << (type ? "3070.dat" : "3024.dat") << endl;
+  outputFile << "1 0 " << 20 * z << " " << 20 * x << " " << -8 * y << " 1 0 0 0 0 1 0 -1 0 " << (type ? "3070.dat" : "3024.dat") << endl;
 }
 
 // Checks if the block at x, yy, z is inside the sphere
