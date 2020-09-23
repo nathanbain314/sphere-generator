@@ -8,7 +8,7 @@ This program can generate four types of lego spheres.
   - 1 : Sphere made of 1x1 plates facing outwards.
   - 2 : Sphere made of stacked 1x1 blocks.
   - 3 : Sphere made of stacked 1x1 plates.
-- -r, --radius : The radius of the sphere or the major radius of the torus.
+- -r, --radius : The radius of the sphere.
 
 ## Examples
 #### Type 0
