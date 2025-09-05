@@ -12,14 +12,14 @@ This program can generate four types of lego spheres.
 
 ## Examples
 #### Type 0
-![Type 0](http://nathanbain.com/wikiImages/RunSphereGenerator/type0.png)
+![Type 0](examples/type0.png)
 
 #### Type 1
-![Type 1](http://nathanbain.com/wikiImages/RunSphereGenerator/type1.png)
+![Type 1](examples/type1.png)
 
 #### Type 2
-![Type 2](http://nathanbain.com/wikiImages/RunSphereGenerator/type2.png)
+![Type 2](examples/type2.png)
 
 #### Type 3
-![Type 3](http://nathanbain.com/wikiImages/RunSphereGenerator/type3.png)
+![Type 3](examples/type3.png)
 
